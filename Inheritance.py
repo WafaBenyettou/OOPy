@@ -13,5 +13,5 @@ class Cat(Animal):
 dog = Dog()
 cat = Cat()
 
-print(dog.sound())  # Bark
-print(cat.sound())  # Bark
+print(dog.sound()) 
+print(cat.sound())  

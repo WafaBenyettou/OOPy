@@ -1,10 +1,10 @@
 class Animal:
-    def make_sound(self):
-        return "Some sound"
+    def make_sound(self,a , b):
+        return a*b 
 
 class Dog(Animal):
-    def make_sound(self):
-        return "Bark"
+    def make_sound(self, a ,b ):
+        return a+b
 
 my_dog = Dog()
 print(my_dog.make_sound())  # Output: Bark

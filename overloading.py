@@ -3,6 +3,7 @@ class Calculator:
         return a + b
 
 calc = Calculator()
+
 print(calc.add(5))      # Output: 5 (uses default b=0)
 print(calc.add(5, 10))  # Output: 15 (uses provided b=10)
 
