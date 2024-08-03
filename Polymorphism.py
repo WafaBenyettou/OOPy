@@ -13,3 +13,11 @@ class Cat(Animal):
 animals = [Dog(), Cat()]
 for animal in animals:
     print(animal.sound())  # Bark Meow
+
+
+"""
+polymorphism allows different types of objects to be controlled through a common interface or method.
+So, you can use the same commands to operate different objects, even though each object may perform 
+those commands in its own unique way.
+"""
+

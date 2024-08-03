@@ -1,9 +1,11 @@
-class Dog:
-    def __init__(self, name, age):
-        self.__name = name  # Private attribute
+class Person:
+    def __init__(self, name):
+        self.name = name  # Public attribute
 
-    def get_name(self):
-        return self.__name
+class Vehicle:
+    def __init__(self, brand):
+        self._brand = brand  # Protected attribute
 
-buddy = Dog("Buddy", 3)
-print(buddy.get_name())  # Buddy
+class Diary:
+    def __init__(self, secret):
+        self.__secret = secret  # Private attribute
